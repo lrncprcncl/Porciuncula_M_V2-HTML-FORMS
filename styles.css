@@ -1,0 +1,353 @@
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header-site {
+    height: 97px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+}
+
+.main-bar {
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.col{
+    float: left;
+}
+
+.logo {
+    width: 57px;
+    padding-right: 20px;
+    padding-left: 50px;
+}
+
+.main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.menu-item-1 {
+    float: left;
+}
+
+.menu-item-1 A {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    text-decoration: none;
+  }
+
+.menu-item-1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-item-1 A:hover {
+    background-color: #a7a7a7;
+}
+
+.hero-banner {
+    background-position: 90%; 
+    background-image: url(image/escape-to-paradise.jpeg); 
+    background-color: #ffffff;
+}
+
+.overline1 {
+    color:#000000;
+    padding-top: 203px;
+}
+
+.hero-title {
+    color:#000000;
+    font-size: 84px;
+    padding-left: 100px;
+}
+
+.content {
+    color:#000000;
+    padding-bottom: 203px;
+}
+
+.button-1 {
+    color:#000000;
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.button-1:hover {
+    background-color: #fff;
+    opacity: 10%;
+}
+
+.row-2 {
+    height: 628px;
+}
+
+.content-column2{
+    float: left;
+    background-position: 90%;
+    background-image: url(image/tropical-fruity-paradise.jpeg);
+    background-color: #ffffff;
+    width: 49.5%;
+}
+
+.content-column3{
+    float: right;
+    background-position: 90%;
+    background-image: url(image/a-summer-to-savor.jpg);
+    background-color: #ffffff;
+    width: 49.5%;
+}
+
+.col-1-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.space {
+    padding-bottom: 10px;
+}
+
+.overline2 {
+    color:#000000;
+    padding-top: 560px;
+}
+
+.txt1 {
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid black;
+}
+
+.button-2 {
+    color:#000000;
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    text-decoration: none;;
+    font-weight: bold;
+}
+
+.button-2:hover {
+    background-color: #fff;
+    opacity: 10%;
+}
+
+.footer-site {
+    padding-top: 50px;
+}
+
+.media {
+    width: 32px;
+}
+
+.row-soc-med {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flex-row-2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-item .C {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.flex-row {
+    list-style: none;
+    padding-top: 50px;
+}
+
+.item {
+    float: left;
+    text-align: center;
+}
+
+.item a {
+    display: inline;
+    padding: 15px;
+}
+
+
+/* Menu-Index */
+
+.hero-banner-1 {
+    background-position: 90%; 
+    background-image: url(image/paradise-in-a-cup.png); 
+    background-color: #ffffff;
+}
+
+.menu-subheader {
+    height: 105px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
+.subheader-title {
+    font-size: 29px;
+    font-weight: bold;
+    padding-top: 38px;
+    padding-left: 30px;
+}
+
+.row-menu-list {
+    align-self: center;
+    padding-right: 50px;
+}
+
+.group-content {
+    display: inline;
+    margin-bottom: 4rem;
+    border-bottom: 3px solid black;
+}
+
+.menu-col {
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.menu-row {
+    display: flex;
+    padding-right: 20px;
+    margin-left: 50px;
+    border: 1px solid black;
+    width: 500px;
+
+}
+
+.menu-row p {
+    align-self: center;
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--blackText);
+    text-align: left;
+    flex: 1;
+    position: relative;
+}
+
+.menu-row p a {
+    text-decoration: none;
+    color: var(--blackText);
+}
+
+.img-wrapper {
+    margin-right: 10px;
+}
+
+.img-wrapper img {
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4rem;
+}
+
+/* Contact Us */
+
+.contact-us {
+    padding-top: 200px;
+}
+.txt4 h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 64px;
+    color: #969696;
+}
+
+.fake {
+    border: 3px solid #969696;
+}
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+    color:rgb(0, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #969696;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+
+  .feedback-input:focus { 
+    border:2px solid #5a5a5a;
+ }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#969696;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:rgb(0, 0, 0);
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+[type="submit"]:hover { 
+    background:#5a5a5a; 
+}
+
+/* About Us */
+
+.about {
+    text-align: center;
+    max-width:800px;
+     margin:50px auto; 
+}
+
+.about h3 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.about p {
+    padding-bottom: 10px;
+}
+
+

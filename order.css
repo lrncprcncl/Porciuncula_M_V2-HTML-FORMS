@@ -1,0 +1,157 @@
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    height: 97px;
+    background-color: #ffffff;
+}
+header h1 {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    height: 332px;
+    background-color: #03352c;
+}
+
+.second {
+    height: 517px;
+    background-color: rgb(255, 255, 255);
+}
+
+.order {
+    align-items: center !important;
+    display: flex;
+}
+
+.order-image {
+    margin-right: 50px;
+    max-width: 420px;
+    margin-left: 550px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.order-name {
+    margin-left: 50px;
+    max-width: 420px;
+}
+
+.order-txt {
+    font-size: 64px;
+    line-height: 1.29;
+    color: #fff;
+}
+
+.relative {
+    position: relative !important;
+    display: flex;
+    height: 400px;
+    max-width: 857px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-1 {
+    width: 389px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-1-txt {
+    width: 389px;
+    border-bottom: 2px solid #03352c;
+
+}
+.col-1-header {
+    font-size: 48px;
+}
+
+.visually {
+    border: 0 !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+}
+
+label {
+    cursor: default;
+    padding-right: 20px;
+    padding-left: 18px;
+    padding-top: 20px;
+}
+
+
+
+input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"] + span {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"]:checked + span {
+    background-color: #ddd;
+  }
+
+  .sizes img {
+    width: 50px;
+    height: 50px;
+    padding-right: 52px;
+    padding-left: 25px;
+  }
+
+  .btn {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px; 
+    border-radius: 12px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41; 
+  }
+
+  .btn:active {
+    background-color: #222;
+  box-shadow: 0 0 0 0px rgba(0,0,0,0.1);
+  }
+
+  .end {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
